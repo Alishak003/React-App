@@ -1,0 +1,86 @@
+/* Center page layout */
+.landing-parent-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #f4f4f4; /* light background */
+}
+
+/* Card-like container */
+.landing-container {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  height: 70vh;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading */
+.landing-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* Button group */
+.button-group {
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.google-btn,
+.email-btn {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.google-btn {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.google-btn:hover {
+  background: #f1f1f1;
+}
+
+.email-btn {
+  background-color: #0073b1;
+  color: white;
+}
+
+.email-btn:hover {
+  background-color: #005f91;
+}
+
+/* Register text */
+.register-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register-text span {
+  color: #0073b1;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.register-text span:hover {
+  text-decoration: underline;
+}
+
+.landing-image {
+  width: 70%;
+}

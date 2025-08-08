@@ -1,0 +1,191 @@
+/* CompleteProfile.css */
+
+.complete-profile-page {
+  width: 100vw;
+  background: #f6f8fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.complete-profile-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1em;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #9f9d9d;
+  margin-bottom: 3rem;
+}
+
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.avatar-wrapper {
+  position: relative;
+}
+
+.avatar-image {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.upload-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-hint {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.label-with-icon {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-field label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-field input,
+.form-field textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.error {
+  border-color: #dc3545;
+}
+
+.error-text {
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.field-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: #888;
+}
+
+.button-group {
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cancel-btn,
+.submit-btn {
+  flex: 1;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: white;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.progress-bar {
+  background: #e9ecef;
+  height: 8px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-filled {
+  background: #007bff;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.hr {
+  margin: 1.5rem 0 1.3rem 0;
+}

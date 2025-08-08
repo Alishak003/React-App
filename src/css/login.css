@@ -1,0 +1,98 @@
+/* Full screen center alignment */
+.login-parent-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #f4f4f4;
+}
+.login-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  min-height: 70vh;
+  width: 100%;
+  text-align: center;
+}
+
+.login-container h3 {
+  font-weight: 400;
+}
+.login-container p {
+  margin-top: -0.7rem;
+  color: #c4c4c4;
+}
+
+/* Card box */
+.login-card {
+  padding: 2rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Input fields */
+.login-card .form-field {
+  text-align: left;
+  width: 100%;
+}
+
+.login-card input {
+  width: auto;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.login-card input:focus {
+  border-color: #005f91;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: #1e1e1e !important;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-card button:hover {
+  background-color: #005f91;
+}
+
+.google-btn {
+  padding-top: 1rem 0;
+  margin: 1.5rem auto;
+  width: 92%;
+}
+.switch-auth {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.switch-auth .link {
+  color: #0073b1;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.switch-auth .link:hover {
+  color: #005f91;
+}

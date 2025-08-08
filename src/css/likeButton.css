@@ -1,0 +1,25 @@
+.like-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 6px;
+  color: #262626;
+  transition: all 0.2s ease;
+  padding: 4px 6px;
+}
+
+.like-btn:hover {
+  transform: scale(1.05);
+}
+
+.like-btn svg {
+  transition: fill 0.2s ease, stroke 0.2s ease;
+}
+
+.like-btn span {
+  font-weight: 500;
+}

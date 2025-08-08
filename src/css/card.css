@@ -1,0 +1,90 @@
+.post_card {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease;
+}
+
+.post_card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile-photo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 0.7rem;
+}
+
+.profile-photo svg {
+  color: #444;
+}
+
+.profile_container p {
+  font-weight: 600;
+  color: #333;
+  margin-left: 1rem;
+}
+
+.menu-wrapper {
+  position: relative;
+}
+
+.post_menu_btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.post-menu-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+  z-index: 10;
+}
+
+.post-menu-dropdown button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.post-menu-dropdown button:hover {
+  background-color: #f0f0f0;
+}
+
+.text_continer {
+  margin-top: 0.6rem;
+  color: #222;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.btn_container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
